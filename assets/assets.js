@@ -88,7 +88,7 @@ export const workData = [
         title: 'E-Commerce Website',
         description: 'Black Rose',
         bgImage: '/black-rose.jpg',
-        live:'https://black-rose-xnwt-frontend.vercel.app/',
+        live:'https://blackrose-frontend.vercel.app/',
         github:'https://github.com/abedcodes13/black-rose',        
     },
     {
