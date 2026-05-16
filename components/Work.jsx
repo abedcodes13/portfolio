@@ -52,14 +52,17 @@ const Work = ({isDarkMode}) => {
                     <div className='flex gap-2'>
 
                         {/* Live Website */}
-                        <a 
-                            href={project.live}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
-                        >
-                            <Image src={assets.send_icon} alt='Live site' className='w-5'/>
-                        </a>
+                        {
+                            project.live && (
+                                <a 
+                                href={project.live}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+                                >
+                                <Image src={assets.send_icon} alt='Live site' className='w-5'/>
+                                </a>
+                        )}
 
                         {/* GitHub Repo (only show if link exists) */}
                         {project.github && (

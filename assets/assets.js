@@ -88,6 +88,7 @@ export const workData = [
         title: 'Data Analysis',
         description: 'Customer Behaviour Analysis',
         bgImage: '/dashboard.png',
+        live: '',
         github:'https://github.com/abedcodes13/customer_behaviour',        
     },
     {
