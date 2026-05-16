@@ -84,6 +84,12 @@ export const workData = [
         live:'https://public.tableau.com/views/ProductSalesReport_17666522755930/CustomerDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link',
         github:'',
     },
+        {
+        title: 'Data Analysis',
+        description: 'Customer Behaviour Analysis',
+        bgImage: '/dashboard.png',
+        github:'https://github.com/abedcodes13/customer_behaviour',        
+    },
     {
         title: 'E-Commerce Website',
         description: 'Black Rose',
